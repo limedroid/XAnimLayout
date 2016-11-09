@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.droidlover.xanimlayout.AnimScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <cn.droidlover.xanimlayout.AnimLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:al_firstFillViewPort="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#BDF0B9"
+            android:gravity="center"
+            android:text="XAnimLayout"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            app:av_alpha="true" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FFE2C8"
+            android:gravity="center"
+            android:text="RxJava"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            app:av_translateGravity="right" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:text="Dagger"
+            android:textSize="22sp"
+            app:av_endColorBg="#140405"
+            app:av_startColorBg="#A15772" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#BAE4D0"
+            android:gravity="center"
+            android:text="Android"
+            android:textSize="28sp"
+            app:av_alpha="true" />
+
+    </cn.droidlover.xanimlayout.AnimLinearLayout>
+
+
+</cn.droidlover.xanimlayout.AnimScrollView>

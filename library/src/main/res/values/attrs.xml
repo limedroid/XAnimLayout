@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimView_Layout">
+        <attr name="av_rotate" format="boolean" />
+        <attr name="av_alpha" format="boolean" />
+        <attr name="av_scaleX" format="boolean" />
+        <attr name="av_scaleY" format="boolean" />
+
+        <attr name="av_startColorBg" format="color" />
+        <attr name="av_endColorBg" format="color" />
+
+        <attr name="av_translateGravity">
+            <flag name="left" value="0x01" />
+            <flag name="top" value="0x02" />
+            <flag name="right" value="0x04" />
+            <flag name="bottom" value="0x08" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="AnimLinearLayout">
+        <attr name="al_firstFillViewPort" format="boolean" />
+    </declare-styleable>
+
+</resources>
